@@ -66,3 +66,11 @@ for (let i = 10; i > 0; i--) {
     }
 }
 // - localeCompare() example
+
+let city1 = "Miami";
+let city2 = "Barcelona";
+
+let result = city1.localeCompare(city2);
+
+console.log(result);
+
